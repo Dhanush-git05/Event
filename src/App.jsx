@@ -8,6 +8,12 @@ import Contact from "./pages/Contact";
 import TravelBlog from "./pages/TravelBlog";
 import TravelGuides from "./pages/TravelGuides";
 import FAQ from "./pages/FAQ";
+import Greece from "./pages/Greece";
+import Peru from "./pages/Peru";
+import Japan from "./pages/Japan";
+
+
+
 
 function App() {
     return (
@@ -21,8 +27,11 @@ function App() {
                 <Route path="/TravelBlog" element={<TravelBlog />} />
                 <Route path="/TravelGuides" element={<TravelGuides />} />
                 <Route path="/FAQ" element={<FAQ />} />
-
-            </Routes>
+                <Route path="/Greece" element={<Greece />} />
+                <Route path="/Peru" element={<Peru />} />
+                <Route path="/Japan" element={<Japan />} />
+                                       
+              </Routes>
             <Footer />
         </BrowserRouter>
     )

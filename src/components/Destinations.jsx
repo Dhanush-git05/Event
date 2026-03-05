@@ -15,6 +15,7 @@ const places = [
     rating: "4.8",
     tours: "30 tours",
     description: "Romantic city known for the Eiffel Tower and rich culture.",
+
   },
   {
     name: "Bali, Indonesia",
@@ -71,6 +72,7 @@ export default function TravelPage() {
                 key={index}
                 className="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer"
               >
+
                 <img
                   src={place.img}
                   alt={place.name}

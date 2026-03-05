@@ -42,10 +42,10 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-3">Destinations</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white">Bali</a></li>
-              <li><a href="#" className="hover:text-white">Greece</a></li>
-              <li><a href="#" className="hover:text-white">Japan</a></li>
-              <li><a href="#" className="hover:text-white">Peru</a></li>
+              <li><a href="/Bali" className="hover:text-white">Bali</a></li>
+              <li><a href="/Greece" className="hover:text-white">Greece</a></li>
+              <li><a href="/Japan" className="hover:text-white">Japan</a></li>
+              <li><a href="/Peru" className="hover:text-white">Peru</a></li>
             </ul>
           </div>
           <div>
