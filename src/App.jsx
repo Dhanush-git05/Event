@@ -11,7 +11,15 @@ import FAQ from "./pages/FAQ";
 import Greece from "./pages/Greece";
 import Peru from "./pages/Peru";
 import Japan from "./pages/Japan";
-
+import Trip from "./pages/Trip";
+import BookingPage from "./pages/BookingPage";
+//import TravelPage from "./components/TravelPage";
+/*     import ParisTrip from "./pages/ParisTrip";
+import BaliTrip from "./pages/BaliTrip";
+import MaldivesTrip from "./pages/MaldivesTrip";
+import NewYorkTrip from "./pages/NewYorkTrip";
+import HongKongTrip from "./pages/HongKongTrip";
+import ThailandTrip from "./pages/ThailandTrip";  */
 
 
 
@@ -30,7 +38,15 @@ function App() {
                 <Route path="/Greece" element={<Greece />} />
                 <Route path="/Peru" element={<Peru />} />
                 <Route path="/Japan" element={<Japan />} />
-                                       
+                <Route path="/Trip:" element={<Trip />} />   
+                <Route path="/BookingPage" element={<BookingPage />} /> 
+                
+     {/* <Route path="/paris" element={<ParisTrip />} />
+        <Route path="/bali" element={<BaliTrip />} />
+        <Route path="/maldives" element={<MaldivesTrip />} />
+        <Route path="/newyork" element={<NewYorkTrip />} />
+        <Route path="/hongkong" element={<HongKongTrip />} />
+        <Route path="/thailand" element={<ThailandTrip />} />   */}              
               </Routes>
             <Footer />
         </BrowserRouter>

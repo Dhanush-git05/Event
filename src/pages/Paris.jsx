@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 export default function ParisTrip() {
   const places = [
     {
@@ -52,9 +53,15 @@ export default function ParisTrip() {
             <li>✔ Guided City Tour</li>
             <li>✔ Seine River Cruise</li>
           </ul>
-          <button className="mt-6 bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
-            Book Now
+
+          <Link to="/BookingPage">
+          <button className="bg-blue-600 text-white px-6 py-3 rounded-xl">
+           Book Now
           </button>
+          </Link>
+         {/* <button className="mt-6 bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
+            Book Now
+          </button> */}
         </div>
       </section>
 
